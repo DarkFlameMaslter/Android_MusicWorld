@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MusicWorldFinal</string>
+
+    <!--    buttonLabel-->
+    <!--    main-->
+    <string name="MainToLib">To songs Library</string>
+    <string name="toMusicBoard">Music board today</string>
+    <string name="toUploadingSong">Share the Song!</string>
+
+    <!--    songLib-->
+    <string name="songLib">List of songs</string>
+
+    <!--    musicBoard-->
+    <string name="MusicBoard_TopText">New Update Song!</string>
+
+    <string name="ShareASong">Share a song?</string>
+
+    <string name="forDevpp">For Dev Purpose</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/uploadCardView"
+        android:layout_centerVertical="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/icon_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/hololive" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/UploadMusicTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/uploadCardView"
+        android:layout_centerVertical="true"
+        android:background="@color/cherry"
+        android:ellipsize="end"
+        android:fontFamily="@font/mto_chancery"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@color/deep_sea_blue"
+        android:textSize="15dp"
+        tools:text="@string/forDevpp" />
+
+</RelativeLayout>
